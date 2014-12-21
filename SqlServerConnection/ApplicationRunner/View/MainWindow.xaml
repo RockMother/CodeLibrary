@@ -1,0 +1,12 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:view="clr-namespace:TreeFrogs.SqlServerConnection.View;assembly=TreeFrogs.SqlServerConnection"
+        x:Class="SqlServerConnection.View.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <view:CreateConnection  DataContext="{Binding CreateConnectionViewModel}" HorizontalAlignment="Left" Margin="119,92,0,0" VerticalAlignment="Top" Height="178" Width="355"/>
+
+    </Grid>
+</Window>
